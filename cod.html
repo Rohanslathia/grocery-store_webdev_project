@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="G+.css">
+	<title>Cash On Delivery</title>
+<style type="text/css">
+	body,html{
+		margin:0;
+		
+		background-image: url("https://myfoodlink.com.au/application/files/9014/9135/5960/InnerPageBannerImages-Grocery.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		height:100%;
+
+	}
+	#fr {
+		text-decoration: none;
+		border:3px green solid;
+		background-color: green;
+		color:white;
+	}
+	#fr:hover{
+		text-decoration: none;
+		border:3px darkgreen solid;
+		background-color:darkgreen;
+        color:white:;
+	}
+	#fr:active{
+		font-size: 13px;
+	}
+	form{
+		font: 95% Arial, Helvetica, sans-serif;
+	    max-width: 400px;
+	    margin: 10px auto;
+	    padding: 16px;
+	    background: #F7F7F7;
+	    border:3px black groove;
+	    line-height: 30px;
+
+	}
+	input[type=submit]{
+		text-decoration: none;
+		border:3px green solid;
+		background-color: green;
+		color:white;
+	}
+	input[type=submit]:hover{
+		text-decoration: none;
+		border:3px darkgreen solid;
+		background-color:darkgreen;
+        color:white:;
+	}
+	input[type=submit]:active{
+		font-size: 13px;
+	}
+	footer{
+  color:black;
+  }
+  .row {
+  display: flex;
+
+}
+.col {
+  flex: 50%;
+  padding: 5px;
+  }
+</style>
+</head>
+<body>.
+	<script>
+		function validateform() 
+		{
+	var y = document.forms["yes"]["Address"].value;
+	if(y==""){
+  	alert("Username can not be Empty !");
+  	return false;}
+
+  	}
+
+    
+	</script>
+<form name="yes" action="OrderPlaced.html" method="post">
+	<h1 style="text-align: center;">Enter Details:</h1><br>
+  Enter Address:<br>
+  <textarea rows="10" cols="50" name="Address" placeholder="Enter Address..."></textarea>
+  <br><br>
+  <input type="submit" onclick="return validateform()" value="Buy Now !"><br>
+</form> 
+<footer>
+	<br>
+	<hr>
+	<div class="row">
+		<div class="col">
+   <p><b> Contact us @<br>thegplus@gmail.com</b></p></div>
+   <div class="col">
+   	<p><b>Social Links</b><br>
+   		<a href="#" ><img src="http://pngimg.com/uploads/instagram/instagram_PNG3.png" height="50px" width="50px"></a>
+        <a href="#"><img src="http://pngimg.com/uploads/twitter/twitter_PNG9.png" height="40px" width="50px"></a>
+        <a href="#"><img src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19754.png" height="50px" width="50px"></a>
+</footer><br><hr>
+<p style="text-align: center;color:black;"><b>All Rights reserved © 2019<br>THE G+ Grocery Store</b></p>
+
+
+</body>
+</html>
